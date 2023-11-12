@@ -24,5 +24,5 @@ a free web-hosting site that makes development of a website much simpler with fr
 Before I start the documentation of this project, let me leave the link to my domain below.
 
 ```
-[https://datavault.rf.gd](https://datavault.rf.gd/?i=1)
+https://datavault.rf.gd
 ```
