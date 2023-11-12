@@ -1,28 +1,54 @@
 # NodeCrypt - Backend for File Sharing Site
 
-Refer below link for more info
+For more detailed information, refer to the [Notion page](https://deadgawk.notion.site/NodeCrypt-Backend-for-File-Sharing-Site-a4c7c2f271e54173995d3775b166973a?pvs=4).
 
+## Introduction
+
+This project focuses on developing the backend for a file-sharing site, continuing the work on the 'File System Encryption using AES-256 over HTTPS' project.
+
+The HTTPS setup is an integral part of the project, involving the configuration of a custom domain with a free and custom Top-Level Domain (TLD). The SSL certificate has been enabled to ensure secure HTTPS connections. The hosting is done on [InfinityFree](https://www.infinityfree.com/), a free web hosting platform that simplifies website development at no cost.
+
+Before diving into the documentation, the domain for this project is [datavault.rf.gd](https://datavault.rf.gd).
+
+
+## Getting Started
+
+### Installation
+
+To install project dependencies, run:
+
+```bash
+npm install
 ```
-https://deadgawk.notion.site/NodeCrypt-Backend-for-File-Sharing-Site-a4c7c2f271e54173995d3775b166973a?pvs=4
+
+### Configuration
+
+Create a .env file in the project root and add the following configurations:
+
+```bash
+PORT=3000
+MONGODB_URI=mongodb://localhost:3000/fileSharing
 ```
 
-In this project, I’ll be continuing to develop the backend for the file sharing site to continue the proceedings of the project ‘File System Encryption using AES-256 over HTTPS’.
+### Start the Server
 
-This involves the HTTPS part of the other project, I had already set up a domain with a free and custom TLD, I also enabled SSL certificate to make the site HTTPS. This was all done in **InfinityFree**.
+To start the server in development mode, run:
 
+```bash
+npm run devStart
 ```
-https://www.infinityfree.com/
-```
 
-a free web-hosting site that makes development of a website much simpler with free of cost, the only thing that could be even considered as a downside is the custom and the relatively unknown TLD (Top-level Domains).
+### Project Domain
 
-<aside>
-💡 TLD stands for Top-level Domains. These are the highest level of domains in the hierarchical Domain Name System (DNS) of the internet. Examples of TLDs include .com, .org, .net, and .gov
+Visit datavault.rf.gd to explore the live project.
 
-</aside>
+## Contributing
 
-Before I start the documentation of this project, let me leave the link to my domain below.
+If you'd like to contribute to the project, please follow our contribution guidelines.
 
-```
-https://datavault.rf.gd
-```
+## License
+
+This project is licensed under the [MIT License](https://github.com/Gaoh19/NodeCrypt/blob/4b60013a209ac983e495247140cbbac9956893bf/LICENSE)
+
+This project draws inspiration from [WebDevSimplified](https://github.com/WebDevSimplified/file-sharing-node-js.git).
+
